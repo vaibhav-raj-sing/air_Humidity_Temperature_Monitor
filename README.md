@@ -5,19 +5,22 @@ Air_Humidity_Temperature_Monitoring System
 Overview
 This project involves creating an Air, Humidity, and Temperature Monitoring System using a NodeMCU, DHT11 sensor, air quality sensor, humidity and temperature sensor, and an OLED display. The system generates real-time data and sends it to the ThingSpeak server, allowing users to monitor the environmental conditions remotely.
 
+
 Components
-NodeMCU: A low-cost open-source IoT platform.
-DHT11: A basic, ultra low-cost digital temperature and humidity sensor.
-Air Quality Sensor: Measures the level of pollution in the air.
-Humidity and Temperature Sensor: Provides accurate readings of ambient temperature and humidity.
-OLED Display: Displays real-time data locally.
-ThingSpeak: An IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud.
+1.NodeMCU: A low-cost open-source IoT platform.
+2.DHT11: A basic, ultra low-cost digital temperature and humidity sensor.
+3.Air Quality Sensor: Measures the level of pollution in the air.
+4.Humidity and Temperature Sensor: Provides accurate readings of ambient temperature and humidity.
+5.OLED Display: Displays real-time data locally.
+6.ThingSpeak: An IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud.
+
 Features
-Real-Time Monitoring: Continuously monitors air quality, temperature, and humidity.
-Data Visualization: Displays real-time data on an OLED screen and uploads it to the ThingSpeak server.
-Remote Access: Access and monitor data remotely through the ThingSpeak web interface.
-Alerts and Notifications: Set up triggers and alerts based on threshold values in ThingSpeak.
-Setup and Installation
+.Real-Time Monitoring: Continuously monitors air quality, temperature, and humidity.
+.Data Visualization: Displays real-time data on an OLED screen and uploads it to the ThingSpeak server.
+.Remote Access: Access and monitor data remotely through the ThingSpeak web interface.
+.Alerts and Notifications: Set up triggers and alerts based on threshold values in ThingSpeak.
+.Setup and Installation
+
 Hardware Connections
 NodeMCU:
 
@@ -25,6 +28,7 @@ Connect the DHT11 sensor to the NodeMCU:
 VCC to 3V3
 GND to GND
 Data to D4
+
 Connect the air quality sensor to the NodeMCU (according to the sensor's pin configuration).
 Connect the OLED display to the NodeMCU:
 SDA to D2
@@ -46,6 +50,7 @@ Code:
 Clone this repository to your local machine.
 Open the .ino file in Arduino IDE.
 Configure your Wi-Fi credentials and ThingSpeak API key in the code.
+
 ThingSpeak Setup
 Create a ThingSpeak Account: Sign up at ThingSpeak.
 Create a New Channel: Set up a new channel with fields for temperature, humidity, and air quality.
