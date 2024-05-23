@@ -24,8 +24,11 @@ Hardware Connections
 NodeMCU:
 
 Connect the DHT11 sensor to the NodeMCU:
+
 VCC to 3V3
+
 GND to GND
+
 Data to D4
 
 Connect the air quality sensor to the NodeMCU (according to the sensor's pin configuration).
