@@ -32,9 +32,14 @@ GND to GND
 Data to D4
 
 Connect the air quality sensor to the NodeMCU (according to the sensor's pin configuration).
+
 Connect the OLED display to the NodeMCU:
+
 SDA to D2
+
 SCL to D1
+
+
 Power Supply: Ensure the NodeMCU and sensors are powered appropriately.
 
 Software Installation
@@ -42,28 +47,52 @@ Arduino IDE: Install the latest version of Arduino IDE.
 
 Libraries:
 
+
 Install the following libraries from the Arduino Library Manager:
 Adafruit_SSD1306
+
 Adafruit_GFX
+
 DHT
+
 ThingSpeak
+
+
+
 Code:
 
 Clone this repository to your local machine.
+
 Open the .ino file in Arduino IDE.
+
 Configure your Wi-Fi credentials and ThingSpeak API key in the code.
 
+
+
 ThingSpeak Setup
+
+
 Create a ThingSpeak Account: Sign up at ThingSpeak.
+
 Create a New Channel: Set up a new channel with fields for temperature, humidity, and air quality.
+
 API Key: Obtain the Write API Key from your ThingSpeak channel and add it to your code.
+
 Upload and Run
+
 Upload Code: Upload the code to your NodeMCU.
+
 Monitor: View the real-time data on the OLED display and monitor the data on your ThingSpeak channel.
+
+
+
 Usage
+
 The system will start sending real-time data to ThingSpeak once powered on.
 Monitor the environmental conditions locally on the OLED display.
 Access and analyze the data remotely via the ThingSpeak web interface.
+
+
 Contributing
 Contributions are welcome! Please fork this repository and submit pull requests for any enhancements or bug fixes.
 
