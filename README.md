@@ -4,6 +4,8 @@ This project involves creating an Air, Humidity, and Temperature Monitoring Syst
 
 
 Components
+
+
 1.NodeMCU: A low-cost open-source IoT platform.
 2.DHT11: A basic, ultra low-cost digital temperature and humidity sensor.
 3.Air Quality Sensor: Measures the level of pollution in the air.
